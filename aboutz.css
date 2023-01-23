@@ -1,0 +1,164 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+::selection{
+    background-color: aliceblue;
+    color: black;
+}
+#mainz{
+    width: 80%;
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    height: 100vh;
+}
+#submain{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+#leftnavigation{
+    margin-top: 0%;
+    margin-left: 0%;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    background-color: rgb(39, 39, 39);
+    height: 100%;
+    width: 150px;
+    text-align: center;
+}
+.navbuttons{
+    height: 40px;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-top: 5px;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 0%;
+}
+.navbuttons:hover{
+    background-color: rgb(47, 47, 47);
+}
+
+.demos{
+    margin-right: auto;
+    left: 0%;
+    margin-left: 145px;
+    top: 0%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+#imagediv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid;
+    border-color: rgb(45, 45, 45);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+#imagediv img{
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.info{
+    width: 100%;
+}
+#heading{
+    width: 100%;
+    background-color:black ;
+    display: flex;
+    margin-left: 145px;
+    position: sticky;
+    top: 0px;
+}
+.heading{
+    margin-top: 0px;
+    top: 5px;
+}
+.myname{
+    font-size: 50px;
+}
+#Zaid{
+    color: rgb(255, 217, 0);
+    cursor: not-allowed;
+
+}
+#Mohsin{
+    color: rgb(235, 57, 57);
+    cursor: not-allowed;
+}
+#videodiv{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-wrap: wrap;
+        border: solid;
+        border-color: rgb(45, 45, 45);
+        margin-top: 10px;
+        border-radius: 10px;
+        padding: 5px;
+    
+}
+#cmzaid{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#czaid{
+    box-shadow: 0px 0px 20px white;
+    background-color: rgb(255, 217, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+input{
+    margin: 10px 5px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: cell;
+}
+textarea{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: cell;
+    font-size: 20px;
+}
+#cozaid{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sendbtn{
+    width: 70px;
+    height: 30px;
+    align-self: center;
+    border-radius: 10px;
+}
+#readmore{
+    color: rgb(126, 126, 252);
+    cursor: pointer;
+}
+#tdet{
+    cursor: default;
+}
